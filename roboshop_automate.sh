@@ -2,8 +2,7 @@
 
 AMI_ID="ami-09c813fb71547fc4f"
 SG_ID="sg-039ef9c300b06ac00"
-INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
-ZONE_ID=Z0608002VA9OF3SBWG2W"
+ZONE_ID="Z0608002VA9OF3SBWG2W"
 DOMAIN_NAME="devdsoprac.site"
 
 for instance in $@
